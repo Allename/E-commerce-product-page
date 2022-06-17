@@ -16,6 +16,7 @@ body {
   justify-content: space-between;
   align-items: center;
   /* border: 1px solid black; */
+  border-bottom: 1px solid rgb(210, 208, 208);
 }
 
 .left-side {
@@ -46,3 +47,12 @@ body {
   width: 12%;
   border-radius: 30px;
 }
+
+/* Main */
+.container {
+  margin: 10px 40px;
+  padding: 30px;
+  border: 1px solid black;
+}
+
+
