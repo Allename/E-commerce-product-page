@@ -10,20 +10,21 @@ body {
 
 /* Header */
 .header {
-  padding: 30px 10px;
+  padding: 20px 10px;
   margin: 0 40px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  /* border: 1px solid black; */
 }
 
 .left-side {
   display: flex;
-  
+  /* border: 1px solid red; */
 }
 
 .navbar {
-
+  margin: 0 30px;
 }
 
 .navbar > ul > li {
@@ -31,4 +32,17 @@ body {
   display: inline;
   padding: 0 15px;
   font-size: 14px;
+  color: rgb(172, 170, 170);
+}
+
+.right-side {
+  display: flex;
+  justify-content: flex-end;
+  width: 40%;
+  /* border: 1px solid green; */
+}
+
+.profile {
+  width: 12%;
+  border-radius: 30px;
 }
