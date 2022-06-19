@@ -72,6 +72,7 @@ body {
 
 .display-extended {
   border: 1px solid blue;
+  width: 80%;
 }
 
 .product-profile {
