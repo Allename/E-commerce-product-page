@@ -57,6 +57,7 @@ body {
 
 .product-display {
   width: 50%;
+  margin-right: -10px;
 }
 
 .display {
@@ -92,7 +93,7 @@ body {
 }
 
 .product-profile {
-  border: 1px solid green;
+  /* border: 1px solid green; */
   padding: 40px 0;
   width: 50%;
   align-self: center;
@@ -117,6 +118,7 @@ body {
 }
 
 .product-info > p {
+  margin-bottom: -10px;
   color: rgb(143, 146, 158);
   font-size: 16px;
   font-weight: 400;
@@ -127,7 +129,25 @@ body {
   font-size: 24px;
 }
 
+.row-prices {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
 .highlight {
-  padding: 0 15px;
+  padding: 2px 6px;
+  margin-left: 15px;
+  font-size: 14px;
+  color: hsl(25, 74%, 57%);
+  background-color: hsl(25, 46%, 93%);
+  border-radius: 3px;
+  vertical-align: middle;
+}
+
+.product-prices > h4 {
   font-size: 16px;
+  font-weight: 550;
+  color: rgb(187, 188, 192);
+  text-decoration: line-through;
 }
