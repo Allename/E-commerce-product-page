@@ -63,7 +63,7 @@ body {
 
 .product-display {
   width: 50%;
-  margin-right: -10px;
+  /* margin-right: -10px; */
 }
 
 .display {
@@ -160,18 +160,15 @@ body {
 
 .proceed-to-cart {
   display: flex;
-  border: 1px solid black;
-  padding: 10px 0;
-  /* justify-content: flex-start; */
+  padding: 30px 0;
 }
 
 .counter {
   display: flex;
-  border: 1px solid red;
   width: 30%;
   justify-content: space-around;
   align-items: center;
-  background-color: rgb(231, 234, 243);
+  background-color: rgb(238, 240, 246);
   padding: 10px 0;
   border-radius: 10px;
 }
@@ -180,10 +177,28 @@ body {
 .more {
   font-size: 20px;
   color: hsl(26, 100%, 55%);
+  cursor: pointer;
 }
 
 .btn {
   display: flex;
   align-items: center;
-  padding: 10px 60px;
+  background-color: hsl(26, 100%, 55%);
+  margin: 0 15px;
+  padding: 10px 80px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+ svg {
+  /* height: 16px;
+  width: 16px; */
+  /* padding: 0 12px; */
+  fill: white;
+  margin-right: 1rem ;
+}
+
+.btn > h3 {
+  white-space: nowrap;
 }
