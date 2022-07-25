@@ -82,12 +82,14 @@ body {
 .display-extended > img {
   width: 20%;
   border-radius: 10px;
+  cursor: pointer;
 }
 
 .active {
   border: 2px solid hsl(26, 100%, 55%);
   border-radius: 10px;
   width: 20%;
+  cursor: pointer;
 }
 
 .thumbnail {
