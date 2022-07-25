@@ -201,4 +201,5 @@ body {
 
 .btn > h3 {
   white-space: nowrap;
+  color: rgb(255, 255, 255);
 }
